@@ -7,5 +7,6 @@ namespace Core
 		~Core() = default;
 
 		void PrintMessage();
+		int Val() {return 1;}
 	};
 };

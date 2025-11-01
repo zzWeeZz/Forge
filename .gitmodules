@@ -1,6 +1,6 @@
 [submodule "External/googletest"]
 	path = External/googletest
 	url = https://github.com/google/googletest.git
-[submodule "External/--force"]
-	path = External/--force
+[submodule "External/NVRHI"]
+	path = External/NVRHI
 	url = https://github.com/NVIDIA-RTX/NVRHI.git
