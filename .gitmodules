@@ -1,3 +1,6 @@
-[submodule "Vendor/Sharpmake"]
-	path = Vendor/Sharpmake
-	url = https://github.com/zzWeeZz/Sharpmake.git
+[submodule "External/googletest"]
+	path = External/googletest
+	url = https://github.com/google/googletest.git
+[submodule "External/--force"]
+	path = External/--force
+	url = https://github.com/NVIDIA-RTX/NVRHI.git
