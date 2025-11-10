@@ -5,6 +5,7 @@ file(GLOB_RECURSE SOURCES "src/*.cpp" "src/*.h")
 add_library(Forge-Core ${SOURCES})
 
 target_include_directories(Forge-Core PUBLIC src)
+target_link_libraries(Forge-Core PRIVATE raylib EnTT::EnTT)
 
 if(BUILD_TESTING)
 
