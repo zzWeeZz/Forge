@@ -1,7 +1,6 @@
 #include "Core.h"
-#include <print>
-
+#include <iostream>
 void Core::Core::PrintMessage()
 {
-	std::println("Hello from Core!");
+	std::cout << "Hello from Core!" << std::endl;
 }

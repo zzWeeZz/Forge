@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.5)
 
 project(Forge)
-set(CMAKE_CXX_STANDARD 23)
+set(CMAKE_CXX_STANDARD 20)
 enable_testing()
 
 set(gtest_force_shared_crt ON CACHE BOOL "" FORCE)
