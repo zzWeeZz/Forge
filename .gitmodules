@@ -1,6 +1,9 @@
 [submodule "External/googletest"]
 	path = External/googletest
 	url = https://github.com/google/googletest.git
-[submodule "External/NVRHI"]
-	path = External/NVRHI
-	url = https://github.com/NVIDIA-RTX/NVRHI.git
+[submodule "External/raylib"]
+	path = External/raylib
+	url = https://github.com/raysan5/raylib.git
+[submodule "External/entt"]
+	path = External/entt
+	url = https://github.com/skypjack/entt.git

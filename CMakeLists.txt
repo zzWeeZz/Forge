@@ -6,7 +6,8 @@ enable_testing()
 
 set(gtest_force_shared_crt ON CACHE BOOL "" FORCE)
 add_subdirectory(External/googletest)
-add_subdirectory(External/NVRHI)
+add_subdirectory(External/raylib)
+add_subdirectory(External/entt)
 
 add_subdirectory(Forge-Core)
 add_subdirectory(Forge-Entrypoint)
